@@ -1,0 +1,28 @@
+﻿<Project ToolsVersion="15.0" Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net471;netcoreapp2.0</TargetFrameworks>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>snKey.snk</AssemblyOriginatorKeyFile>
+    <ApplicationIcon>sBIO2.ico</ApplicationIcon>
+    <Version>1.0.0</Version>
+    <FileVersion>1.0.0</FileVersion>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <Description>Async Driver for Controller Series-X</Description>
+    <Company>Bio-Hazard Industries</Company>
+    <Copyright>Copyright ©  1998-2018</Copyright>
+    <Authors>Latency McLaughlin</Authors>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageLicenseUrl>http://www.gnu.org/licenses/gpl-3.0.en.html</PackageLicenseUrl>
+    <PackageIconUrl>http://bio-hazard.us/ico/kitty.ico</PackageIconUrl>
+    <RepositoryUrl>https://github.com/Latency/Controller-Series-X</RepositoryUrl>
+    <PackageTags>.NET IoC DI</PackageTags>
+    <RootNamespace>OOP</RootNamespace>
+	<StartupObject>OOP.Program</StartupObject>
+	<OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+  </PropertyGroup>
+</Project>
